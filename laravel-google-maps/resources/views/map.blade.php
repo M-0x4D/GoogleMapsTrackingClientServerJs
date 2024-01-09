@@ -11,7 +11,7 @@
 
         #map {
             width: "100%";
-            height: 400px;
+            height: 600px;
         }
     </style>
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script> --}}
@@ -81,7 +81,7 @@
 
         // var test = latLong;
 
-        const googleKey = "AIzaSyCCvbX-HLrNF36DIYtLWbIAdCrtHTNi2q0";
+        const googleKey = "YOUR_GOOGLE_API_KEY";
         const path = `https://maps.googleapis.com/maps/api/js?key=${googleKey}&callback=initMap`;
 
         // Create a new script element
